@@ -1,5 +1,5 @@
 <?php
-    $to = 'officialsambhavautomobiles@gmail.com';
+    $to = 'sambhav.automobiles@rediffmail.com';
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
