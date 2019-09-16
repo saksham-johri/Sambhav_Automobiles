@@ -35,19 +35,25 @@
 		  		
 			    <div class="container main-menu">
 			    	<div class="row align-items-center justify-content-between d-flex">
-			    		<a href="index.html"><img src="img/fav.png" title="Sambhav Automobiles" height="20px" width="20px"><b style="color: white; font-size: 20px; padding-left: 20px">SAMBHAV AUTOMOBILES</b></a>		
+			    		<a href="index.html"><img src="logo/fav.png" title="Sambhav Automobiles" height="20px" width="20px"><b style="color: white; font-size: 20px; padding-left: 20px">SAMBHAV AUTOMOBILES</b></a>		
 						<nav id="nav-menu-container">
 							<ul class="nav-menu">
 							     <li class="menu-active"><a href="index.html">Home</a></li>
-							     <li><a href="about.html">About</a></li>
-							     <li><a href="gallery.html">Gallery</a></li>
+							     <li class="menu-has-children"><a href="">About</a>
+                                     <ul>
+							         <li><a href="about.html">About Us</a></li>
+							         <li><a href="gallery.html">Gallery</a></li>
+                                     <li><a href="#">Review</a></li>
+                                    </ul>
+                                </li>
                                  <li class="menu-has-children"><a href="">Services</a>
                                     <ul>
 							         <li><a href="facilities.html">Facilities</a></li>
 							         <li><a href="value_added_services.html">Value Added Services</a></li>
-                                     <li><a href="#">Insurance Renewal</a></li>
+                                     <li><a href="#">Pick &amp; Drop</a></li>
                                     </ul>
                                  </li>
+                                 <li><a href="#">Insurance Renewal</a></li>
 							     <li><a href="car_tips.html">Car Tips</a></li>
                                  <li><a href="#">Payment</a></li>                                
 							     <li><a href="contact.html">Contact</a></li>
@@ -102,9 +108,38 @@
                         </ul>
                         
 					</div>
-				</div>	
+				</div>
 			</section>
 			<!-- End home-about Area -->
+            
+            <section class="contact-page-area section-gap">
+				<div class="container">
+					<div class="row">
+						                    
+                        <div class="col-lg-8">
+							<form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
+								<div class="row">	
+									<div class="col-lg-6 form-group">
+										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+									
+										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+
+										<input name="subject" placeholder="Enter subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter subject'" class="common-input mb-20 form-control" required="" type="text">
+									</div>
+									<div class="col-lg-6 form-group">
+										<textarea class="common-textarea form-control" name="message" placeholder="Enter Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Messege'" required=""></textarea>				
+									</div>
+									<div class="col-lg-12">
+										<div class="alert-msg" style="text-align: left;"></div>
+										<button class="genric-btn primary" style="float: right;">Send Message</button>											
+									</div>
+								</div>
+							</form>	
+						</div>
+						
+					</div>
+				</div>	
+			</section>
 									
 				    																			
 			<!-- start footer Area -->		
@@ -145,18 +180,12 @@
 						</div>												
 						<div class="col-lg-5 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
-								<p>Let us be social</p>
-								<div class="footer-social d-flex align-items-center">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-instagram"></i></a>
-									
-								</div>
+                                <h6><a href="contact.html">Get In Touch</a></h6>
+								<h6><a href="#">Schedule Service</a></h6>
 							</div>
 						</div>							
 						
-						<p class="mt-80 mx-auto footer-text col-lg-12">
+						<p class="mt-80 mx-auto footer-text col-lg-12" style="color: white">
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Sambhav Automobiles
                         </p>
 																
