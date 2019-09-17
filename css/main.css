@@ -96,7 +96,7 @@ body {
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
-    background-color: #e6faff;
+    background-color: #fff;
 }
 
 ol, ul {
@@ -2381,7 +2381,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background: #5bc0de;
+  background: #5AC0DE;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2538,7 +2538,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-content .primary-btn {
-  background-color: #5bc0de;
+  background-color: #dc3545
   color: #222;
   font-weight: 600;
   font-size: 14px;
@@ -2741,13 +2741,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .services-area .single-service:hover {
-  background-color: #17a2b8;
+  background-color: #dc3545;
   pointer: cursor;
 }
 
 .services-area .single-service:hover h4,
 .services-area .single-service:hover .lnr {
-  color: #5bc0de;
+  color: #fb3b4dc9;
 }
 
 @media (max-width: 991px) {
