@@ -2415,7 +2415,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn:hover {
-  color: #fff;
+  color: #000;
 }
 
 .primary-btn:hover span {
@@ -2558,7 +2558,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .header-right {
   background-color: #5bc0de;
   border: 1px solid #4b5263;
-  padding: 50px;
+  padding: 15px;
   text-align: center;
 }
 
@@ -2699,7 +2699,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .home-about-area .about-right .primary-btn {
-  color: #222;
   border: 1px solid transparent;
 }
 
@@ -2712,7 +2711,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*-------- End home-about Area -------------*/
 /*-------- Start services Area -------------*/
 .services-area .single-service {
-  
+
+  background-color: #f9f9ff;
   text-align: center;
   padding: 30px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2741,13 +2741,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .services-area .single-service:hover {
-  background-color: #dc3545;
+  background-color: #000;
   pointer: cursor;
 }
 
 .services-area .single-service:hover h4,
-.services-area .single-service:hover .lnr {
-  color: #fb3b4dc9;
+.services-area .single-service:hover .lnr,
+.services-area .single-service:hover p {
+  color: #5bc0de;
 }
 
 @media (max-width: 991px) {

@@ -53,7 +53,7 @@
                                      <li><a href="#">Pick &amp; Drop</a></li>
                                     </ul>
                                  </li>
-                                 <li><a href="#">Insurance Renewal</a></li>
+                                 <li><a href="insurance_renewal.html">Insurance Renewal</a></li>
 							     <li><a href="car_tips.html">Car Tips</a></li>
                                  <li><a href="#">Payment</a></li>                                
 							     <li><a href="contact.html">Contact</a></li>
@@ -74,8 +74,37 @@
                                 At Your Vehicle's Favourite<br>
                                 Service Spot!!<br><br>				
 							</h2>
-                            <a href="contact.html" class="primary-btn text-uppercase"><i class="fa fa-phone" style="padding-right: 8px"></i>Get In touch</a>
-                            
+                            <a href="tel:01202601112" class="primary-btn text-uppercase">Call Us</a>
+                        </div>
+                        
+                        <div class="col-lg-4  col-md-6 header-right">
+							<h4 class="pb-30">Schedue A Service</h4>
+							<form class="form">
+							    <div class="from-group">
+							    	<input class="form-control txt-field" type="text" name="name" placeholder="Your name"  onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'">
+							    	<input class="form-control txt-field" type="email" name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'">
+							    	<input class="form-control txt-field" type="tel" name="phone" placeholder="Phone number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'">
+							    </div>								
+							    							    
+							    <div class="form-group">
+									<div class="input-group dates-wrap">                                              
+										<input id="datepicker2" class="dates form-control"  placeholder="Date & time" type="text">                        
+										<div class="input-group-prepend">
+											<span  class="input-group-text"><span class="lnr lnr-calendar-full"></span></span>
+										</div>											
+									</div>
+							    </div>	
+                                
+                                <div class="form-group">
+                                    <input class="form-control txt-field" type="text" name="model" placeholder="Year/Model Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Year/Model Number'">
+                                </div>
+                                
+							    <div class="form-group">
+
+							            <button class="btn btn-default btn-lg btn-block text-center text-uppercase">Make reservation</button>
+
+							    </div>
+							</form>
 						</div>
 																	
 					</div>
@@ -92,9 +121,8 @@
 						</div>
 						<div class="col-lg-6 about-right">
 							<h1 style="font-size: 40px">Who Are We</h1>
-							<p style="font-size: 18px;">
-                                <strong><br>Since April 2007, Sambhav Automobile has been providing top quality auto repair, maintenance and towing services to our wonderful customers in Loni, Ghaziabad,UP. and the surrounding local communities. We are a family owned and operated Maruti Authorized Service Station, and are committed to providing friendly, high quality automotive services at best prices!</strong>
-                            </p>
+							<p>
+                                <br>Since April 2007, Sambhav Automobile has been providing top quality auto repair, maintenance and towing services to our wonderful customers in Loni, Ghaziabad,UP. and the surrounding local communities. We are a family owned and operated Maruti Authorized Service Station, and are committed to providing friendly, high quality automotive services at best prices!                            </p>
 							<a class="text-uppercase primary-btn" href="about.html">Read More</a>
 						</div>
 					</div>
@@ -103,36 +131,47 @@
 			<!-- End home-about Area -->
 			
 			<!-- Start services Area -->
-			<section class="services-area pb-120" style="background-color: #02075d">
+			<section class="services-area pb-120">
 				<div class="container">
 					<div class="row section-title">
-						<h1 style="color: white"><br>Our Services</h1>
-                        
-                        <span class="elementor-divider-separator"></span>
+						<h1>Our Services</h1>
 					</div>
 					<div class="row">
 						<div class="col-lg-4 single-service">
-							<img src="img/car.jpg">
-							<a href="#"><h4 style="color: white">Car Service<br><br></h4></a>
-							<a class="text-uppercase primary-btn" href="about.html">Learn More</a>
+                            <span class="lnr lnr-car"></span>
+							<h4>Car Service</h4>
 						</div>
 						<div class="col-lg-4 single-service">
-							<img src="img/wheel.jpg">
-							<a href="#"><h4 style="color: white">Wheel Care<br><br></h4></a>
-							<a class="text-uppercase primary-btn" href="about.html">Learn More</a>
+                            <span class="lnr lnr-menu-circle"></span>
+							<h4>Wheel Care</h4>
 						</div>
 						<div class="col-lg-4 single-service">
-							<img src="img/dent.jpg">
-							<a href="#"><h4 style="color: white">Dent &amp; Paint<br><br></h4></a>
-							<a class="text-uppercase primary-btn" href="about.html">Learn More</a>
+                            <span class="lnr lnr-magic-wand"></span>
+							<h4>Dent &amp; Paint</h4>
 						</div>												
 					</div>	
+                    
+                    <div class="row">
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-checkmark-circle"></span>
+							<h4>Wheel Alignment</h4>
+						</div>
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-cloud-sync"></span>
+							<h4>AC Servicing</h4>
+						</div>
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-lighter"></span>
+							<h4>Auto Electrical Repairs</h4>
+						</div>												
+					</div>	
+                    
 				</div>	
 			</section>
 			<!-- End services Area -->
 			
 			<!-- Start reviews Area -->
-			<section class="reviews-area" style="background-color: #8e8c8ce6">
+			<section class="reviews-area">
 				<div class="container">
 					<div class="row section-title">
 						<h1><br>Client’s Reviews</h1>
@@ -191,80 +230,57 @@
 			<!-- End reviews Area -->
 						
 			<!-- Start latest-blog Area -->
-			<section class="reviews-area">
+			<section class="services-area pb-120">
 				<div class="container">
 					<div class="row section-title">
-						<h1><br><br><br>Why Choose Us !</h1>
-						
+						<h1>Why Choose Us</h1>
+					</div>
+					<div class="row">
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-cog"></span>
+							<h4>MASTER TECHNICIAN</h4>
+							<p>
+								Every Autoworks Technician is Factory trained in Maruti Suzuki.
+							</p>
+						</div>
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-users"></span>
+							<h4>CUSTOMER SATISFACTION</h4>
+							<p>
+								Every Autoworks Technician is Factory trained in Maruti Suzuki.
+							</p>
+						</div>
+						<div class="col-lg-4 single-service">
+                            <span class="lnr lnr-store"></span>
+							<h4>CLEAN &AMP; MODERN SHOP</h4>
+							<p>
+								Every Autoworks Technician is Factory trained in Maruti Suzuki.
+							</p>
+						</div>												
+					</div>	
+				</div>	
+			</section>
+            
+            
+            <section class="image-gallery-area section-gap">
+				<div class="container">
+					<div class="row section-title">
+						<h1>Image Gallery that we like to share</h1>
+						<p>Who are in extremely love with eco friendly system.</p>
 					</div>					
 					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review" style="padding-bottom: 95px; background-color: #8e8c8c75">
-								<h4>MASTER TECHNICIAN</h4>
-								<p>
-									Every autoworks technician is factory<br>
-                                    trained in Maruti Suzuki.
-                                </p>
-								
-							</div>
-						</div>
-                        
-                        <div class="col-lg-4 col-md-6">
-							<div class="single-review" style="padding-bottom: 155px; background-color: #8e8c8c75">
-								<h4>FREE PICK AND DROP</h4>
-                                <p>
-                                    
-                                </p>
-								
-								
-							</div>
-						</div>
-                        
-                        <div class="col-lg-4 col-md-6">
-							<div class="single-review" style="padding-bottom: 155px; background-color: #8e8c8c75">
-								<h4>FREE WI-FI</h4>
-								<p>
-									
-                                </p>
-								
-							</div>
-						</div>
-                        
-                        <div class="col-lg-4 col-md-6">
-							<div class="single-review" style="background-color: #8e8c8c75">
-								<h4>IN-DEPTH TRAINING</h4>
-								<p>
-									Click edit button to change this text. Lorem ipsum dolor sit amet,<br>
-                                    consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper<br>
-                                    mattis, pulvinar dapibus leo.
-                                </p>
-								
-							</div>
-						</div>
-                        
-                        <div class="col-lg-4 col-md-6">
-							<div class="single-review" style="padding-bottom: 97px; background-color: #8e8c8c75">
-								<h4>CUSTOMER SATISFACTION</h4>
-								<p>
-									Every autoworks technician is factory<br>
-                                    trained in Maruti Suzuki.
-                                </p>
-								
-							</div>
-						</div>
-                        
-                        <div class="col-lg-4 col-md-6">
-							<div class="single-review" style="padding-bottom: 96px; background-color: #8e8c8c75">
-								<h4>CLEAN &amp; MODERN SHOP</h4>
-								<p>
-									Every autoworks technician is factory<br>
-                                    trained in Maruti Suzuki.
-                                </p>
-								
-							</div>
-						</div>
-						
-							
+						<div class="col-lg-4 single-gallery">
+							<a href="img/g1.jpg" class="img-gal"><img class="img-fluid" src="img/g1.jpg" alt=""></a>
+							<a href="img/g4.jpg" class="img-gal"><img class="img-fluid" src="img/g4.jpg" alt=""></a>
+						</div>	
+						<div class="col-lg-4 single-gallery">
+							<a href="img/g2.jpg" class="img-gal"><img class="img-fluid" src="img/g2.jpg" alt=""></a>
+							<a href="img/g5.jpg" class="img-gal"><img class="img-fluid" src="img/g5.jpg" alt=""></a>						
+						</div>	
+						<div class="col-lg-4 single-gallery">
+							<a href="img/g3.jpg" class="img-gal"><img class="img-fluid" src="img/g3.jpg" alt=""></a>
+							<a href="img/g6.jpg" class="img-gal"><img class="img-fluid" src="img/g6.jpg" alt=""></a>
+						</div>				
 					</div>
 				</div>	
 			</section>
